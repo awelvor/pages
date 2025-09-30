@@ -38,6 +38,8 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
+      - run: console.log( "hello world")
+      - run: console.log("2025-09-30"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
