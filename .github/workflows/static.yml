@@ -40,6 +40,7 @@ jobs:
           path: '.'
       - run: echo "hello world"
       - run: echo "2025-09-30"
+      - run: date
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
